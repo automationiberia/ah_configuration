@@ -3,14 +3,14 @@
 
 ---
 ah_namespaces:
-  - name:
-    new_name:
-    description:
-    company:
-    email:
-    avatar_url:
-    resources:
-    links:
-    groups:
+  - name: redhat_cop
+    new_name: redhat_cop
+    description: redhat_cop
+    company: Red Hat
+    email: admin@iam.lab
+    # avatar_url:
+    # resources:
+    # links:
+    # groups:
     state: "{{ target_state }}"
 ...

@@ -3,16 +3,16 @@
 
 ---
 ah_ee_registries:
-  - name:
-    new_name:
-    url:
-    username:
-    password:
-    tls_validation:
-    proxy_url:
-    proxy_username:
-    proxy_password:
-    download_concurrency:
-    rate_limit:
+  - name: registry.redhat.io
+    new_name: registry.redhat.io
+    url: https://registry.redhat.io
+    username: 6340056|iam-test
+    password: eyJhbGciOiJSUzUxMiJ9.eyJzdWIiOiI4ZWZjNzFlYWExMjk0NzllYjhlMzQwMDViMzQ3ZDgxMiJ9.b-1Z21gAVJzsk6kGUeLwEwF_YT4qHjuBAFM-oHcns_TlThPjgubOhx5RqaCSFTHgIV02q13dFUGeNCV8TofdkxSNtw4H4y-9dfiU1ohXTs0_G_V0T1JIkVKyuD0vYFdRd4yzCakqYJR_3s8Ei1QK0niTJs-SLwPsT7MMtKn8YLRJQx4rTfGiG3QEvu6659GSzmf0rKDkXsYA77exd48xU9ASLx7ksbSeNJsoufuNgszqILeHm7PUa1fi-vAMbGFc5T0EqHn9yhIYVucYkkBKfF_al4KZcZtr3_QC128q8EC_TTL45W19X04kSt37k1-HjOl4v7yH-wuRy9taKIfWjYFnInsVZ7bjVNJbxqLYSFuPg3JuZXVgfWkj5Qqvcblg3u9A7umZLVrWCdU9BAeyEVKtMP42tVOIHRBxDiZZ2N5b8f47XIgnhvXekoeacFyUwPfRPkCcGsCYAjQhxwTF186YpSeR9Alc2AEqOexVp4YnKC_VFJt3jBVOz6EGQlrDhXpvYiUDSTFbFELdmiHCnv6wTVHBOiFE-qcUTaRB1iSmEtefT4ABdNYEtWa72gKGMKoqgbENohmtCgSmUJrqDe7CNikXTJOYpbiN9Dzhdy73CCyGE-JrUlJT7Hv8Pm89FflNHyD5ls9RW_G3hCqHF_zO-4Ds1alX12XOlWNVpCU
+    tls_validation: true
+    # proxy_url:
+    # proxy_username:
+    # proxy_password:
+    # download_concurrency:
+    # rate_limit:
     state: "{{ target_state }}"
 ...

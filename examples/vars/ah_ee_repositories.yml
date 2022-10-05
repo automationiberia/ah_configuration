@@ -2,10 +2,10 @@
 # for documentation and additional parameter information
 
 ---
-ah_ee_repositories:
-  - name:
-    description:
-    readme:
-    readme_file:
-    state: "{{ target_state }}"
+ah_ee_repositories: []
+  # - name:
+  #   description:
+  #   readme:
+  #   readme_file:
+  #   state: "{{ target_state }}"
 ...

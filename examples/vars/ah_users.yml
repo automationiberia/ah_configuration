@@ -3,14 +3,14 @@
 
 ---
 ah_users:
-  - username:
+  - username: admin
     groups:
-      - ""
+      - "admin"
     append: true
-    first_name:
-    last_name:
-    email:
-    is_superuser: false
-    password:
+    first_name: admin
+    last_name: admin
+    email: admin@iam.lab
+    is_superuser: true
+    password: redhat000
     state: "{{ target_state }}"
 ...

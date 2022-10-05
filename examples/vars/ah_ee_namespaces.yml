@@ -2,11 +2,11 @@
 # for documentation and additional parameter information
 
 ---
-ah_ee_namespaces:
-  - name:
-    append:
-    groups:
-      -
-      -
-    state: "{{ target_state }}"
+ah_ee_namespaces: []
+  # - name:
+  #   append:
+  #   groups:
+  #     -
+  #     -
+  #   state: "{{ target_state }}"
 ...

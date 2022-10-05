@@ -1,0 +1,8 @@
+---
+collections:
+  - redhat_cop.ah_configuration
+  - redhat_cop.controller_configuration
+  - redhat_cop.aap_utilities
+  - redhat_cop.ee_utilities
+  - containers.podman
+...

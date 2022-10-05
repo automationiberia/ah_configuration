@@ -33,6 +33,16 @@
       tags:
         - namespaces
 
+    - name: Include task for repository
+      include_tasks: tasks/manage_repository.yml
+      tags:
+        - repos
+
+    - name: Include task for repository sync
+      include_tasks: tasks/manage_repository_sync.yml
+      tags:
+        - reposync
+
     - name: Include task for collection publishing
       include_tasks: tasks/manage_collection_publish.yml
       tags:

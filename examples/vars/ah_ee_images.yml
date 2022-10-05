@@ -2,11 +2,11 @@
 # for documentation and additional parameter information
 
 ---
-ah_ee_images:
-  - name:
-    state: "{{ target_state }}"
-    append: false
-    tags:
-      - "latest"
-      - "v1.0.0"
+ah_ee_images: []
+  # - name:
+  #   state: "{{ target_state }}"
+  #   append: false
+  #   tags:
+  #     - "latest"
+  #     - "v1.0.0"
 ...

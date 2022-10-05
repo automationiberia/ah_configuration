@@ -2,9 +2,9 @@
 # for documentation and additional parameter information
 
 ---
-ah_ee_registries:
-  - name:
-    wait: true
-    interval:
-    timeout:
+ah_ee_registries: []
+  # - name:
+  #   wait: true
+  #   interval:
+  #   timeout:
 ...

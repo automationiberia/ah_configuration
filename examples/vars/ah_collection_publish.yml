@@ -2,9 +2,9 @@
 # for documentation and additional parameter information
 
 ---
-ah_collections:
-  - collection_name:
-    git_url:
-    version:
-    collection_local_path:
+ah_collections: []
+  # - collection_name:
+  #   git_url:
+  #   version:
+  #   collection_local_path:
 ...

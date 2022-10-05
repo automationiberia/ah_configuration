@@ -1,8 +1,8 @@
 ---
-ah_host:
-ah_username:
-ah_password:
-ah_token:
+ah_host: ah22.iam.lab
+ah_username: admin
+ah_password: redhat000
+# ah_token: 7fa8324718b8ab382559b9e4d7bd76a3ae423bb6
 ah_validate_certs: false
-ah_path_prefix: ""  #  Not required. API path to access the API.  Either galaxy, automation-hub, or custom.
+ah_path_prefix: "galaxy"  #  Not required. API path to access the API.  Either galaxy, automation-hub, or custom.
 ...
